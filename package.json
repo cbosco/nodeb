@@ -1,13 +1,13 @@
 {
-  "name": "nodeb",
-  "version": "0.2.7",
+  "name": "nodeb-ondeck",
+  "version": "0.2.8",
   "description": "Converting node.js application into a Debian package",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/punund/nodeb.git"
+    "url": "git://github.com/cbosco/nodeb.git"
   },
   "keywords": [
     "node",
