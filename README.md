@@ -17,7 +17,7 @@ If all goes well, `<project name>.deb` file will be created.
 
 ### Options
 
-    -n don't include node_modules/, bower_components/, components/ in the package
+    -n don't include node_modules/, bower_components/ in the package
     -o don't generate nginx config for insecure (http) server
     -p <port to monitor> (default 80) 
     -s generate nginx config for secure (https) server
@@ -42,3 +42,4 @@ If `-s` option is given, nginx configuration for https reverse proxy server is g
 http://blog.coolaj86.com/articles/how-to-create-a-debian-installer.html
 
 https://synack.me/blog/deploying-code-with-packages
+

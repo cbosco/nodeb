@@ -18,7 +18,7 @@ dir=`dirname $(readlink -f $0)`
 while getopts "p:tu:w:sovn" opt; do
   case $opt in
     n)
-      nbNoassets='--exclude=node_modules --exclude=bower_components --exclude=components'
+      nbNoassets='--exclude=node_modules --exclude=bower_components'
       ;;
     u)
       nbUser=$OPTARG
@@ -52,7 +52,7 @@ while getopts "p:tu:w:sovn" opt; do
 
   Valid options:
 
-  -n don't include node_modules/, bower_components/, components/ in the package
+  -n don't include node_modules/, bower_components/ in the package
   -o don't generate nginx config for insecure (http) server
   -p <port to monitor> (default 80) 
   -s generate nginx config for secure (https) server
