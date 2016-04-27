@@ -5,7 +5,7 @@ You don't need any Debian tools for that, just the shell, `tar` and `ar`.
 
 ### Installation
 
-    npm install nodeb
+    npm install nodeb-ondeck
 
 ### Invocation
 
@@ -42,4 +42,5 @@ If `-s` option is given, nginx configuration for https reverse proxy server is g
 http://blog.coolaj86.com/articles/how-to-create-a-debian-installer.html
 
 https://synack.me/blog/deploying-code-with-packages
+
 
