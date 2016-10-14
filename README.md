@@ -31,8 +31,7 @@ If all goes well, `<project name>.deb` file will be created.
 
 The package will be installed in `/opt`.
 
-Files for `upstart`, `monit`, `logrotate`, and optionally `nginx` are created.  `npm install`
-will be run on target system.
+Files for `upstart`, `monit`, `logrotate`, and optionally `nginx` are created.
 
 If `-s` option is given, nginx configuration for https reverse proxy server is generated.  Study the
 [templates](https://github.com/punund/nodeb/tree/master/templates), or customize them using `-t`.

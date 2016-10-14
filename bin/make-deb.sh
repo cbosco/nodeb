@@ -149,9 +149,7 @@ command -v npm >/dev/null 2>&1 || {
     echo >&2 "I require npm but it's not installed.  Aborting."
     exit 1
 }
-echo "Running npm...."
 cd /opt/$Package
-sudo -H -u $nbUser npm i
 echo "Starting $Name"
 start $Name
 EOD
